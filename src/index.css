@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+.lusitana-regular {
+    font-family: "Orbitron";
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lusitana-bold {
+    font-family: "Orbitron" ;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+  .navContent {
+    opacity: 1;
+  }
