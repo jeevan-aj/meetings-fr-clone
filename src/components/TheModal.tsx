@@ -7,7 +7,7 @@ import gsap from "gsap";
 import {  Observer } from "gsap/all";
 
 
-//new modal
+
 const TheModal = () => {
   gsap.registerPlugin(Observer);
 
@@ -20,6 +20,7 @@ const TheModal = () => {
     });
     prevAnimation.play()
   }
+  console.log(images)
 
   function next() {
     setImages((prev) => {
