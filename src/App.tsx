@@ -1,3 +1,4 @@
+import Demo from "./components/Demo";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import TheModal from "./components/TheModal";
@@ -11,6 +12,7 @@ function App() {
     <Navbar/>
     <Header/>
     <TheModal/>
+    <Demo/>
     </div>
     
     </>
